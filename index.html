@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JUKEBOX</title>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<meta charset="utf-8">
+</head>
+<body>
+<div id="content">
+	<h1>JUKEBOX</h1>
+	<div class="buttons">
+		<button id="play">PLAY</button>
+		<button id="pause">PAUSE</button>
+		<button id="stop">STOP</button>
+		<button id="next">NEXT</button>
+      	<input id="search" type="search" placeholder="Search .. song title, artist,genre"/>
+	</div>
+</div>
+<div id="artwork"></div>	
+<table>
+	<tr>
+		<th>TITLE</th>
+		<td id="title"></td>
+	</tr>
+	<tr>
+	<tr>
+		<th>LINK</th>
+		<td id="artistlink"></td>
+	</tr>
+	<tr>
+		<th>TRACK</th>
+		<td id="tracklink"></td>
+	</tr>
+	<tr>
+		<th>DESCRIPTION</th>
+		<td id="description"></td>
+	</tr>
+	<tr>
+		<th>GENRE</th>
+		<td id="genre"></td>
+	</tr>
+	<tr>
+		<th>RELEASE YEAR</th>
+		<td id="releaseyear"></td>
+	</tr>
+</table>
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html> 
